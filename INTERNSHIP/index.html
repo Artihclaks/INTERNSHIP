@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+        <title>login.Srcreams</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <script type="text/javascript" src="js.js"></script>
+        
+   </head>
+
+
+    <body>
+        <div class="block">
+            <img src="image/user.png.jpg" class="user">
+            <h1>Srcreams</h1>
+            <h2>Create Account</h2>
+            <form name="myform" id="signinpage" onsubmit="return vfun2()">
+
+            <p>FIRSTNAME</p>
+            <input type="text" name="fname" placeholder="Firstname"><br><br>
+
+            <p>LASTNAME</p>
+            <input type="text" name="lname" placeholder="Lastname"><br><br>
+
+            <p>EMAIL ID</p>
+            <input type="email" name="email" placeholder="Email id"><br><br>
+
+
+            <p>PASSWORD</p>
+            <input type="password" name="upword" placeholder="Password"><br><br>
+
+            <p>CONFIRM PASSWORD</p>
+            <input type="password" name="cpword" placeholder="confirmation password"><br><br>
+            
+            <div id="errorBox"></div>   
+            <input type="submit" name="" value="Register">
+
+            </form>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+            <script src="mail.js"></script>
+    </body>
+</html>
